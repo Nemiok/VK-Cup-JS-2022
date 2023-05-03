@@ -11,6 +11,7 @@
 3. внимание к деталям.
 
 Как запустить:
-1.'Новый терминал -> 'cd mail-backend' -> 'npm install' -> 'npm start'
 
-2.'Новый терминал -> 'cd mail-frontend' -> 'npm install' -> 'npm start'
+1.'Новый терминал -> 'cd mail-backend' -> `npm install` -> `npm start`
+
+2.'Новый терминал -> 'cd mail-frontend' -> `npm install` -> `npm start`
