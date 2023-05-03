@@ -15,3 +15,5 @@
 1.'Новый терминал -> 'cd mail-backend' -> `npm install` -> `npm start`
 
 2.'Новый терминал -> 'cd mail-frontend' -> `npm install` -> `npm start`
+
+my first time using React and participating in sport programming in December 2022
