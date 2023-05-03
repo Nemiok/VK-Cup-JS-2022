@@ -1,0 +1,27 @@
+.message-opened_isRead {
+  cursor: auto;
+  position: absolute;
+  left: -1.1rem;
+  top: 1.1rem;
+  flex-shrink: 0;
+  margin-right: .625rem;
+  display: inline-block;
+  width: .375rem;
+  height: .375rem;
+  border-radius: 50%;
+  background-color: var(--isRead-icon-color);
+  transition: backgound-color .1s ease-in-out;
+}
+
+.message-opened_isNotRead {
+  cursor: auto;
+  position: absolute;
+  left: -1.1rem;
+  top: 1.1rem;
+  margin-right: .625rem;
+  display: inline-block;
+  width: .375rem;
+  height: .375rem;
+  border-radius: 50%;
+  background-color: var(--accent-color)
+}

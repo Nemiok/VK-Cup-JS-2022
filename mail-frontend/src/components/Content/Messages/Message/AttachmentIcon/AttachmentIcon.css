@@ -1,0 +1,22 @@
+.message-item__attachment-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: .5rem;
+  transition: all .1s ease-in;
+}
+
+.message-item__attachment-icon:hover {
+  background-color: rgba(0, 16, 61, 0.08);
+}
+
+html[data-theme='dark'] .message-item__attachment-icon {
+  filter: invert(1);
+}
+
+.message-item__attachment-icon:active {
+  background-color: var(--navigation-btn-background-color-active);
+}
+
+.attachment-icon__wrapper {
+  position: relative;
+}

@@ -1,0 +1,10 @@
+.message-header__addressees {
+  color: var(--message-item-text-color);
+  font-size: .8125rem;
+  line-height: 1.125rem;
+}
+
+.message-header__hidden-addressees {
+  text-decoration: underline;
+  cursor: pointer;
+}

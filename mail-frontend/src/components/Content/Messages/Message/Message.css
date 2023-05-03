@@ -1,0 +1,64 @@
+.message-item__text-content {
+  display: flex;
+  gap: .5rem;
+}
+
+.message-item__text-content {
+  max-width: 1250px;
+  margin-left: 12px;
+}
+
+@media (min-width: 1367px) {}
+
+.content__message-item {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: .5rem .625rem;
+  border-radius: .5rem;
+  background-color: var(--minor-background-color-light);
+  transition: all .1s ease-in-out;
+}
+
+.content__message-item:has(.message-item__checkbox_checked) {
+  background-color: var(--message-item-color-active);
+  border-radius: 0;
+}
+
+.content__message-item:has(.message-item__checkbox_checked) .message-item__checkbox {
+  transform: scale(1);
+}
+
+.content__message-item:has(.message-item__checkbox_checked) .content__userAvatar,
+.content__message-item:has(.message-item__checkbox_checked) .content__userAvatar_default {
+  transform: scale(0);
+}
+
+.content__message-item:hover,
+.content__message-item:focus-visible {
+  cursor: pointer;
+  background-color: var(--message-item-color-active);
+}
+
+.content__message-item:hover .message-item__checkbox {
+  transform: scale(1);
+}
+
+.content__message-item:hover .content__userAvatar,
+.content__message-item:hover .content__userAvatar_default {
+  transform: scale(0);
+}
+
+.content__message-item:hover .message-item_isRead,
+.content__message-item:hover .message-item__bookmark-button_unmarked {
+  opacity: 1;
+  visibility: visible;
+}
+
+.message-item__info-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: .5rem;
+  align-items: center;
+  margin-left: 5px;
+}

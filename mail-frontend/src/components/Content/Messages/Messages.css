@@ -1,0 +1,6 @@
+.content__messages-list {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--minor-background-color-light);
+  border-radius: .5rem;
+}

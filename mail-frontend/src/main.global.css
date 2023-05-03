@@ -1,0 +1,72 @@
+html[data-theme='dark'] {
+  --major-background-color-light: #19191A;
+  --minor-background-color-light: #232324;
+  --major-background-color-dark: #E7E8EA;
+  --message-item-text-color: #8C8E94;
+  --opened-message-text-major-color: #E7E8EA;
+  --navbar-text-color: #fff;
+  --navbar-logo-text-color: #fff;
+  --isRead-icon-color: #A5A7AD;
+  --accent-color: #005FF9;
+  --accent-color-two: #589BFF;
+  --message-item-color-active: #2d2d2d;
+  --navigation-btn-background-color-active: #2d2d2d;
+  --attachment-linear-gradient: linear-gradient(0deg, rgba(44, 44, 45, 0.9) 45.32%, rgba(44, 44, 45, 0) 104.46%);
+}
+
+html[data-theme='light'] {
+  --major-background-color-light: #f6f7f9;
+  --minor-background-color-light: #fff;
+  --major-background-color-dark: #2C2D2E;
+  --message-item-text-color: #87898F;
+  --opened-message-text-major-color: #2C2D2E;
+  --navbar-text-color: #333;
+  --isRead-icon-color: #A5A7AD;
+  --navbar-logo-text-color: #005ff9;
+  --accent-color: #005FF9;
+  --accent-color-two: #005BD1;
+  --message-item-color-active: #EBECEF;
+  --navigation-btn-background-color-active: #E2E5EA;
+  --attachment-linear-gradient: linear-gradient(0deg, rgba(236, 237, 240, 0.95) 56.81%, rgba(236, 237, 240, 0) 104.46%);
+}
+
+body {
+  overflow-x: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Roboto', serif;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+.message-open__userAvatar {
+  flex-shrink: 0;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all .1s ease-in-out;
+}
+
+.message-open__userAvatar_default {
+  flex-shrink: 0;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url(./avatar.jpg) center center no-repeat;
+  background-size: cover;
+  transition: all .1s ease-in-out;
+}

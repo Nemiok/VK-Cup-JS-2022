@@ -1,0 +1,33 @@
+.message-item_isRead {
+  position: relative;
+  flex-shrink: 0;
+  margin-right: .625rem;
+  display: inline-block;
+  opacity: 0;
+  width: .375rem;
+  height: .375rem;
+  border-radius: 50%;
+  background-color: var(--isRead-icon-color);
+  transition: backgound-color .1s ease-in-out;
+}
+
+.message-item_isNotRead {
+  position: relative;
+  flex-shrink: 0;
+  margin-right: .625rem;
+  display: inline-block;
+  width: .375rem;
+  height: .375rem;
+  border-radius: 50%;
+  background-color: var(--accent-color)
+}
+
+.message-item_isRead::before,
+.message-item_isNotRead::before {
+  content: '';
+  position: absolute;
+  left: -150%;
+  top: -275%;
+  width: 24px;
+  height: 40px;
+}

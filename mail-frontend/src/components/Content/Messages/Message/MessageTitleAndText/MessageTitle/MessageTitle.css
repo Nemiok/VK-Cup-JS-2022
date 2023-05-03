@@ -1,0 +1,16 @@
+.message-item__title_isRead,
+.message-item__title_isNotRead {
+  min-width: fit-content;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--major-background-color-dark);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: pre-wrap;
+}
+
+.message-item__title_isNotRead {
+  font-weight: 700;
+}

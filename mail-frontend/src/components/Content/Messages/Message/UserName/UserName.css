@@ -1,0 +1,24 @@
+.message-item__name_isNotRead {
+  font-weight: 700;
+}
+
+.message-item__name_isRead,
+.message-item__name_isNotRead {
+  flex-shrink: 0;
+  padding-left: .75rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  width: 200px;
+  color: var(--major-background-color-dark);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (max-width: 940px) {
+
+  .message-item__name_isRead,
+  .message-item__name_isNotRead {
+    width: 180px;
+  }
+}

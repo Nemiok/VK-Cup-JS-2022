@@ -1,0 +1,10 @@
+.message-item__text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--message-item-text-color);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: pre-wrap;
+}

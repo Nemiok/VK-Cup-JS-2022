@@ -1,0 +1,77 @@
+.message-header-wrapper__header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: .75rem;
+  margin-bottom: 1.25rem;
+}
+
+.description-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.description-header__name {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--opened-message-text-major-color);
+}
+
+.description-header__name-and-date-wrapper {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.description-body__attachment-info {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  align-items: center;
+}
+
+.description-body__download-link {
+  font-size: .8125rem;
+  line-height: 1.125rem;
+  color: var(--accent-color-two);
+  cursor: pointer;
+}
+
+.description-body__attachments-count {
+  font-size: .8125rem;
+  line-height: 1.125rem;
+  color: var(--opened-message-text-major-color);
+}
+
+.description-body__attachment-size {
+  color: var(--message-item-text-color);
+}
+
+.description-body__text {
+  font-size: 1rem;
+  line-height: 3rem;
+  color: var(--opened-message-text-major-color);
+}
+
+@media (max-width: 940px) {
+  .description-body__text {
+    line-height: 2rem;
+  }
+}
+
+.message-opened__description-wrapper {
+  margin-bottom: 1rem;
+}
+
+.attachments__images {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 940px) {
+  .description-body__attachments {
+    max-width: 524px;
+  }
+}

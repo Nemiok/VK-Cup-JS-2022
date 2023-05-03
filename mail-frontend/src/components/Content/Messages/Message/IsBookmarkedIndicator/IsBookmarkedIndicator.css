@@ -1,0 +1,27 @@
+.message-item__bookmark-button_unmarked {
+  flex-shrink: 0;
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./bookmark_unmarked.svg) center center no-repeat;
+}
+
+.message-item__bookmark-button_marked {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(./bookmark_marked.svg) center center no-repeat;
+}
+
+.message-item__bookmark-button_unmarked::before,
+.message-item__bookmark-button_marked::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  left: -10%;
+  width: 28px;
+  height: 40px;
+}

@@ -1,0 +1,4 @@
+.message-opened__date {
+  flex-shrink: 0;
+  color: var(--message-item-text-color);
+}

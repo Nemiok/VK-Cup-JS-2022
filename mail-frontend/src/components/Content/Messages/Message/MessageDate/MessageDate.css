@@ -1,0 +1,8 @@
+.message-item__date {
+  margin-left: auto;
+  flex-shrink: 0;
+  width: 44px;
+  text-align: right;
+  white-space: nowrap;
+  color: var(--message-item-text-color);
+}

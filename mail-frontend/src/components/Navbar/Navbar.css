@@ -1,0 +1,105 @@
+.navbar-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--navigation-btn-background-color-active);
+  margin-bottom: .5rem;
+}
+
+html[data-theme='dark'] .navbar {
+  border-bottom: 1px solid #000000;
+}
+
+@media (max-width: 940px) {
+
+  html[data-theme='dark'] .navbar,
+  html[data-theme='light'] .navbar {
+    border-bottom: none;
+  }
+}
+
+.navbar__nav-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .5rem;
+}
+
+.navbar__nav-item a {
+  position: relative;
+  display: block;
+  padding: .5rem .5rem .5rem 2.5rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  border-radius: .5rem;
+  font-weight: 400;
+  color: var(--major-background-color-dark);
+  transition: all .1s ease-in-out;
+}
+
+.navbar__nav-item svg {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  left: .7rem;
+  top: .6rem;
+}
+
+html[data-theme='dark'] .navbar__nav-item svg {
+  filter: invert(1);
+}
+
+.navbar__burger-button {
+  display: none;
+  padding: .5rem;
+  width: 36px;
+  height: 36px;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  border-radius: .5rem;
+  font-weight: 400;
+}
+
+.navbar__burger-button:hover,
+.navbar__burger-button:focus-visible {
+  background-color: var(--message-item-color-active);
+}
+
+html[data-theme='dark'] .navbar__burger-button svg path {
+  filter: invert(1);
+}
+
+@media (max-width: 940px) {
+  .navbar__nav-item a {
+    padding: .5rem;
+    text-indent: -1000px;
+    max-width: 36px;
+  }
+
+  .navbar__burger-button {
+    display: block;
+  }
+}
+
+.navbar__nav-item .active {
+  font-weight: 700;
+  color: var(--navbar-text-color);
+  background-color: var(--navigation-btn-background-color-active);
+}
+
+.navbar__nav-item a:hover {
+  background-color: var(--navigation-btn-background-color-active);
+}
+
+.navbar__nav-item a:focus-visible {
+  background-color: var(--navigation-btn-background-color-active);
+  outline: none;
+  font-weight: 700;
+}
+
+.nav-item__messages_clicked {
+  position: relative;
+  font-weight: 700;
+}

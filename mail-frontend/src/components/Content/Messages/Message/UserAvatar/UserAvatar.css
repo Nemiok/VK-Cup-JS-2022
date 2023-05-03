@@ -1,0 +1,29 @@
+.content__userAvatar {
+  flex-shrink: 0;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all .1s ease-in-out;
+}
+
+.content__userAvatar_default {
+  flex-shrink: 0;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url(./avatar.jpg) center center no-repeat;
+  background-size: cover;
+  transition: all .1s ease-in-out;
+}
+
+.message-item__checkbox::before,
+.message-item__checkbox_checked::before {
+  content: '';
+  position: absolute;
+  top: -75%;
+  left: -45%;
+  width: 30px;
+  height: 40px;
+}

@@ -1,0 +1,28 @@
+.message-opened__title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: var(--opened-message-text-major-color);
+}
+
+.message-opened__title {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: var(--opened-message-title-color);
+}
+
+.message-opened__flag {
+  position: relative;
+  font-size: .8125rem;
+  line-height: 1.25rem;
+  color: var(--opened-message-title-color);
+}
+
+.message-opened__flag-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: .5rem;
+}
